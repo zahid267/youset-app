@@ -1,0 +1,13 @@
+.fullh{
+    height: auto;
+}
+.pack{
+    cursor: pointer;
+    overflow: auto;
+}
+.pack:hover{
+    background-color: antiquewhite;
+}
+.selectedp{
+    background-color: lightgreen;
+}

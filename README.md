@@ -1,6 +1,38 @@
+# youset-app
+ Insurance Package Selection
+
+This is a insurance package selection application, that allows a user to select a insurance package from a presented list . This app will run in the browser and feature dynamically updated HTML and CSS.
+
+I have used the bootstrap css and react-bootstrap for this app. 
+
+## Criteria
+
+```
+GIVEN a user is using a insurance package picker to select a package
+WHEN the user open the app
+THEN the available insurance packages are displayed at the top of the page
+WHEN the user hover over a package
+THEN he/she is presented with a background color change of the package
+WHEN the user clicks anywhere on a given package
+THEN the background color of the package is set to light green to show that it is selected
+WHEN the user fill in the email, age and gender fields
+THEN the submit button is enabled
+WHEN he/she click the submit button
+THEN the selected insurance package and the user data is saved in json record
+THEN the saved json data is submitted to www.example.com website
+THEN the selection events persist
+```
+The following animation demonstrates the application functionality:
+
+![A user clicks on a package on the insurance packages list and submit the info.](./assets/YouSetApp.gif)
+
+* The URL of the GitHub repository: https://github.com/zahid267/youset-app
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Also install react-bootstarp
 
 ## Available Scripts
 
@@ -13,11 +45,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -68,3 +95,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+* Create by Muhammad Zahid - May 01, 2022
