@@ -11,3 +11,15 @@
 .selectedp{
     background-color: lightgreen;
 }
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+    body{
+      font-size: 12px;
+    }  
+}
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    body{
+      font-size: 14px;
+    }
+  }
